@@ -1,3 +1,8 @@
-body {
-    background-color: firebrick;
-}
+@import "about.css";
+@import "body.css";
+@import "contact.css";
+@import "footer.css";
+@import "header.css";
+@import "navbar.css";
+@import "project.css";
+@import "variables.css";

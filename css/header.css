@@ -1,0 +1,7 @@
+.jumbotron {
+    background: url("../assets/photo-1547138666-50366f6ef3e1.jpg") no-repeat center;
+    background-size: cover;
+    color: var(--gray);
+    text-align: center;
+    font-family: var(--font-two);
+}

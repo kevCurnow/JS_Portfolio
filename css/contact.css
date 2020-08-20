@@ -1,0 +1,52 @@
+#contact {
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+#contact h1 {
+    font-family: var(--font-two);
+    text-align: center;
+}
+#emailAddress {
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #214883;
+    outline: none;
+}
+
+#emailAddress:focus {
+    box-shadow: none;
+    border-bottom: 2px solid var(--brightBlue);
+}
+
+#emailAddress:hover {
+    box-shadow: none;
+    border-bottom: 2px solid var(--brightBlue);
+}
+
+#yourMessage {
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #214883;
+    outline: none;
+}
+
+#yourMessage:focus {
+    box-shadow: none;
+    border-bottom: 2px solid var(--brightBlue);
+}
+
+#yourMessage:hover {
+    box-shadow: none;
+    border-bottom: 2px solid var(--brightBlue);
+}
+
+#submitBtn {
+    background: transparent;
+    float: right;
+    border-color: #214883;
+}
+
+#submitBtn:hover {
+    border-color: var(--brightBlue);
+}

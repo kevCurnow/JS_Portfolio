@@ -11,9 +11,20 @@
       crossorigin="anonymous"
     />
     <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+
     <link rel="stylesheet" href="css/main.css" type="text/css" />
   </head>
   <body>
@@ -39,19 +50,13 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link disabled"
-              href="#"
-              tabindex="-1"
-              aria-disabled="true"
-              >Disabled</a
-            >
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -61,50 +66,213 @@
     <section id="landing-section">
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="">Kevin Curnow</h1>
+          <h1>Kevin Curnow</h1>
+          <p class="lead text-muted">
+            Coder • Problem Solver • Life Lover
+          </p>
+          <ul
+            class="list-group list-group-horizontal link-social-buttons justify-content-center"
+          >
+            <li class="list-group-item">
+              <a
+                href="https://github.com/kevCurnow"
+                target="blank"
+                class="btn btn-default btn-lg"
+              >
+                <i class="fab fa-github"></i>
+                <span class="network-name">Github</span>
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a
+                href="https://www.linkedin.com/in/kevin-curnow-0aa12585/"
+                target="blank"
+                class="btn btn-default btn-lg"
+              >
+                <i class="fab fa-linkedin"></i>
+                <span class="network-name">Linkedin</span>
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a
+                href="https://drive.google.com/file/d/1NQGhl0RiQ6ftyj3iEro_3LzIH8l9JD5G/view?usp=sharing"
+                target="blank"
+                class="btn btn-default btn-lg"
+              >
+                <i class="fas fa-file"></i>
+                <span class="network-name">Resume</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio section -->
+    <section id="projects">
+      <div class="container col-md-9">
+        <h1>Projects - Constantly redefining the definition of "done"</h1>
+        <div class="row offset-md-2">
+          <div class="card col-md-3 portfolio-item" id="pink">
+            <a href="https://kevcurnow.github.io/staticLayout/" target="_blank">
+              <div class="details">
+                <h4>Static Layout</h4>
+                <span>Kast Recreation</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="card col-md-3 portfolio-item" id="yellow">
+            <a href="https://codepen.io/kcurnow/pen/WNrqvMy" target="_blank">
+              <div class="details">
+                <h4>CSS Creature</h4>
+                <span>Pizza Guy</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="card col-md-3 portfolio-item" id="orange">
+            <a href="https://kevcurnow.github.io/pokedex/" target="_blank">
+              <div class="details">
+                <h4>API Project 1</h4>
+                <span>Pokedex</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="row offset-md-2">
+          <div class="card col-md-3 portfolio-item" id="green">
+            <a
+              href="https://curnowsuperheroapi.firebaseapp.com/"
+              target="_blank"
+            >
+              <div class="details">
+                <h4>API Project 2</h4>
+                <span>Superhero Search 'n Fight</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="card col-md-3 portfolio-item" id="brightBlue">
+            <a href="underConstruction.html" target="_blank">
+              <div class="details">
+                <h4>Blue Badge Project</h4>
+                <span>Under Construction</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="card col-md-3 portfolio-item" id="red">
+            <a href="underConstruction.html" target="_blank">
+              <div class="details">
+                <h4>Red Badge Project</h4>
+                <span>Under Construction</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <br />
+      <h1>About Me</h1>
+      <br />
+      <div class="row">
+        <div class="col-md-3">
           <p class="lead">
-            This is a modified jumbotron that occupies the entire horizontal
-            space of its parent.
+            My coding journey truly began when I decided to dive head-first into
+            the industry by attending a 12 week intensive .NET bootcamp at
+            Eleven Fifty Academy. I enjoyed the few programming classes I took
+            in high school and college, but didn't consider pursuing it as a
+            career at the time. At Eleven Fifty I developed new technical skills
+            utilizing languages such as C# and Angular, met some amazing people,
+            and ultimately learned I was exactly where I needed to be.
+          </p>
+        </div>
+
+        <div class="col-md-3">
+          <p class="lead">
+            After some time spent helping Eleven Fifty develop curriculum, I
+            started my career as a software engineer at technical consulting
+            firm Applied Information Sciences. My first year with the company
+            was spent at GEICO, assisting in the initial rewrite of their
+            Commercial Auto Application. Following that assignment, I spent
+            another year on various government projects in which I acquired some
+            experience using Microsoft Azure.
+          </p>
+        </div>
+
+        <div class="col-md-3">
+          <p class="lead">
+            After being laid off due to COVID-19, I decided to enroll in another
+            class at Eleven Fifty. I have greatly enjoyed my time thus far in
+            the Web Development cohort learning JavaScript, improving my
+            abilities with HTML and CSS, and meeting more great people.
+          </p>
+        </div>
+
+        <div class="col-md-3">
+          <p class="lead">
+            Outside of coding, I'm a man of many interests. Family is very
+            important to me, and I love that a lot of my relatives live close
+            by. I've also taken up playing tennis again after a decade long
+            hiatus. In addition, you can probably find me cheering on my
+            favorite sports teams, watching movies or random YouTube videos, or
+            listening to a podcast while I work out. Really looking forward to
+            being able to travel again!
           </p>
         </div>
       </div>
+      <br />
     </section>
 
-    <!-- Bootstrap layout -->
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col">This is a column</div>
-          <div class="col">This is a column</div>
-          <div class="col">This is a column</div>
-          <div class="col">This is a column</div>
-          <div class="col">This is a column</div>
-          <div class="col">This is a column</div>
-        </div>
-        <div class="row">
-          <div class="col">This is another column</div>
-        </div>
-      </div>
-    </section>
+    <hr class="aboutContact" />
 
     <!-- Contact section -->
     <section id="contact">
-      <div class="container">
+      <div class="container col-md-6" id="contactForm">
+        <h1>Contact</h1>
         <form action="https://formspree.io/mgenqkwk" method="POST">
-          <label>
-            Your email:
-            <input type="text" name="_replyto" />
-          </label>
-          <label>
-            Your message:
-            <textarea name="message"></textarea>
-          </label>
-
-          <!-- your other form fields go here -->
-
-          <button type="submit">Send</button>
+          <div class="form-group">
+            <label for="emailAddress">Your email:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="emailAddress"
+              name="_replyto"
+            />
+          </div>
+          <div class="form-group">
+            <label for="yourMessage">Your message:</label>
+            <textarea
+              class="form-control"
+              id="yourMessage"
+              name="message"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" id="submitBtn">
+            Send
+          </button>
         </form>
       </div>
+    </section>
+
+    <section id="footer">
+      <footer>
+        <p>
+          <a href="#landing-section">BACK TO TOP</a>
+        </p>
+        <div class="container col-md-5 offset-md-4" id="footerContainer">
+          <div class="footerInfo">
+            <p>&copy; 2020 Kevin Curnow</p>
+            <p>Email: kevinscurnow@gmail.com</p>
+            <p>Phone: (317)726-7021</p>
+          </div>
+        </div>
+      </footer>
     </section>
 
     <script
@@ -120,6 +288,10 @@
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/530c090019.js"
       crossorigin="anonymous"
     ></script>
     <script src="main.js"></script>

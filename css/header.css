@@ -1,7 +1,25 @@
+#landing-section {
+    /* margin-bottom: 50px; */
+}
+
 .jumbotron {
-    background: url("../assets/photo-1547138666-50366f6ef3e1.jpg") no-repeat center;
+    background: url("../assets/wood-floor-pine-basketball-court-hardwood-floor-wood-wooden-surface-texture.jpg") no-repeat center;
     background-size: cover;
     color: var(--gray);
     text-align: center;
     font-family: var(--font-two);
+    
+}
+
+.jumbotron h1 {
+    font-size: 100px;
+    color: var(--darkRed);
+}
+
+.jumbotron p {
+    font-size: 50px;
+}
+
+.list-group-horizontal {
+    margin: auto;
 }

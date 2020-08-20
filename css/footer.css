@@ -1,0 +1,21 @@
+/* footer {
+    display: table;
+} */
+#footer {
+    /* padding: 0 0 1% 0; */
+    background-color: black;
+}
+
+#footerContainer {
+    /* padding-top: 2px; */
+}
+
+#footer p {
+    text-align: center;
+}
+
+.footerInfo p{
+    display: inline;
+    margin-right: 2%;
+    
+}

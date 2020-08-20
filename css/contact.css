@@ -12,6 +12,7 @@
     border: 0;
     border-bottom: 2px solid #214883;
     outline: none;
+    
 }
 
 #emailAddress:focus {
@@ -29,6 +30,7 @@
     border: 0;
     border-bottom: 2px solid #214883;
     outline: none;
+    color: var(--gray)
 }
 
 #yourMessage:focus {

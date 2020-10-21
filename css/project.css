@@ -90,6 +90,32 @@
     margin: auto;
 }
 
+.character {
+    content: url('../assets/usericon.png');
+    -webkit-filter:grayscale(100%);
+    filter: grayscale(100%);
+    max-width: 40%;
+    max-height: 40%;
+    opacity: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.cooking {
+    content: url('../assets/groceries.png');
+    -webkit-filter:grayscale(100%);
+    filter: grayscale(100%);
+    max-width: 40%;
+    max-height: 40%;
+    opacity: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
 #brightBlue {
     background-color: var(--brightBlue);
 }
